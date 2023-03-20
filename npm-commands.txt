@@ -1,0 +1,6 @@
+npm start ** start react in current folder
+npx create-react-app folder_name ** create react app setup in new folder folder_name inside working directory
+npm install axios
+npm install json-server --save-dev
+npm run server (requires line in package.json file "server": [stuff])
+node_modules/.bin/nodemon index.js

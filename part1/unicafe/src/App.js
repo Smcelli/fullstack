@@ -21,7 +21,7 @@ const StatisticLine = ({ label, value }) => {
 
 const DisplayStats = ({ good, neutral, bad }) => {
     let total = (good + bad + neutral)
-    if (total == 0){
+    if (total === 0){
         return(
         <div>
             No feedback given
@@ -69,13 +69,13 @@ const App = () => {
     const [bad, setBad] = useState(0)
 
     const IncrementGood = () => {
-        setGood(good+1)
+        setGood((good) => { return good + 1 })
     }
     const IncrementNuetral = () => {
-        setNeutral(neutral+1)
+        setNeutral((nuetral) => { return nuetral + 1 })
     }
     const IncrementBad = () => {
-        setBad(bad+1)
+        setBad((bad) => { return bad + 1 })
     }
     
 

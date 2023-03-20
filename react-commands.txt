@@ -1,2 +1,0 @@
-npm start ** start react in current folder
-npx create-react-app folder_name ** create react app setup in new folder folder_name inside working directory
